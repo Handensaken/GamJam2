@@ -485,15 +485,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3570946357456858333, guid: 90a7380c43ca35f41963f6a9594a9482, type: 3}
       propertyPath: InitialModule.startSize.scalar
-      value: 0.06
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 3570946357456858333, guid: 90a7380c43ca35f41963f6a9594a9482, type: 3}
       propertyPath: InitialModule.startSize.minScalar
-      value: 0.02
+      value: 0.04
       objectReference: {fileID: 0}
     - target: {fileID: 3570946357456858333, guid: 90a7380c43ca35f41963f6a9594a9482, type: 3}
       propertyPath: EmissionModule.rateOverTime.scalar
-      value: 6
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 3959534664749661571, guid: 90a7380c43ca35f41963f6a9594a9482, type: 3}
       propertyPath: m_Name
