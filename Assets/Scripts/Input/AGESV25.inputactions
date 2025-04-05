@@ -27,7 +27,7 @@
             "bindings": [
                 {
                     "name": "2D Vector",
-                    "id": "d79c7e8c-b089-4401-a730-bd1e3b7c6d23",
+                    "id": "f05bf6d8-1ae0-4cfb-ae09-013cce86b72f",
                     "path": "2DVector",
                     "interactions": "",
                     "processors": "",
@@ -38,8 +38,8 @@
                 },
                 {
                     "name": "up",
-                    "id": "295226eb-66de-40ee-a827-b480c328a60f",
-                    "path": "<Keyboard>/upArrow",
+                    "id": "25697085-c0f0-4f66-b7bc-7caab2cac6f6",
+                    "path": "<Keyboard>/p",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -49,8 +49,8 @@
                 },
                 {
                     "name": "down",
-                    "id": "8f9167e5-14f0-4ab9-b5ad-33bf9b88d5fc",
-                    "path": "<Keyboard>/downArrow",
+                    "id": "d0330511-e5f4-448d-b997-1296baef5aae",
+                    "path": "<Keyboard>/#(Ö)",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -60,8 +60,8 @@
                 },
                 {
                     "name": "left",
-                    "id": "088f9864-c64f-4b18-a2a9-a48fb293e430",
-                    "path": "<Keyboard>/leftArrow",
+                    "id": "42ee937a-cfe2-42b9-b207-647450dd6fb6",
+                    "path": "<Keyboard>/l",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -71,8 +71,8 @@
                 },
                 {
                     "name": "right",
-                    "id": "78ae0caf-e141-4cd8-b3f9-8312e9c21a64",
-                    "path": "<Keyboard>/rightArrow",
+                    "id": "057ac3b8-7345-4374-8f84-34c85e66651d",
+                    "path": "<Keyboard>/#(Ä)",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -83,7 +83,7 @@
                 {
                     "name": "",
                     "id": "7383c84e-a336-47a4-b765-a8b4dfdf4b0a",
-                    "path": "<Keyboard>/enter",
+                    "path": "<Keyboard>/shift",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
