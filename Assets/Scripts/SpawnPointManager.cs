@@ -16,6 +16,7 @@ public class SpawnPointManager : MonoBehaviour
     [Header("Win Round")]
     public TextMeshProUGUI winText;
     public float respawnDeley;
+    public TextMeshProUGUI _countdownText;
     [Header("Win Game")]
     [SerializeField] private GameObject _winMenu;
     [SerializeField] private TextMeshProUGUI _winGameText;
@@ -56,11 +57,12 @@ public class SpawnPointManager : MonoBehaviour
         }
         else
         {
-            Invoke(nameof(Respawn), 3f);
+            Invoke(nameof(Respawn), respawnDeley);
         }
     }
     void Respawn()
     {
+        StartCoroutine(Countdown(3));
         GameEventsManager.instance.WeRespawnPlayer();
 
         winText.text = "";
@@ -68,7 +70,6 @@ public class SpawnPointManager : MonoBehaviour
         player1.GetComponent<PlayerMovement>().DisableMovment(_respawnDelayedMovement);
         player2.gameObject.SetActive(true);
         player2.GetComponent<PlayerMovement>().DisableMovment(_respawnDelayedMovement);
-
 
         SetPosition();
     }
@@ -78,7 +79,6 @@ public class SpawnPointManager : MonoBehaviour
         {
             _winMenu.SetActive(true);
         }
-
         if (_Player1Points == 3)
         {
             if (_winGameText != null)
@@ -109,5 +109,23 @@ public class SpawnPointManager : MonoBehaviour
     {
         player1.transform.position = spawnPoint1.position;
         player2.transform.position = spawnPoint2.position;
+    }
+    void DoStuff(int nr)
+    {
+        if (_countdownText != null)
+        {
+            _countdownText.text = nr.ToString();
+        }
+    }
+    IEnumerator Countdown(int seconds)
+    {
+        int counter = seconds;
+        while (counter > 0)
+        {
+            DoStuff(counter);
+            yield return new WaitForSeconds(1);
+            counter--;
+        }
+        _countdownText.text = "";
     }
 }

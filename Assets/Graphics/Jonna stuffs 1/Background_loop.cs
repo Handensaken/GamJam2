@@ -9,7 +9,7 @@ public class Background_loop : MonoBehaviour{
 
     void Start()
     {
-        mainCamera = gameObject.GetCompontent<Camera>();
+        //mainCamera = gameObject.GetCompontent<Camera>();
         screenBounds = mainCamera.ScreenToWorldPoint(new Vector3(Screen.width, Screen.height, mainCamera.transform.position.z));
         foreach(GameObject obj in levels)
         {
