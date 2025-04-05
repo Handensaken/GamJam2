@@ -29,6 +29,7 @@ public class AttackBehaviour : MonoBehaviour
     [SerializeField]
     private float _attackCooldown = 2;
     private float _attackTimer = 0;
+
     [SerializeField]
     private float _disableMovmentOnHitDuration = 3f;
 
@@ -61,6 +62,12 @@ public class AttackBehaviour : MonoBehaviour
 
     private bool shouldCast = false;
 
+    [SerializeField]
+    private GameObject _chargingParticles;
+
+    [SerializeField]
+    private GameObject _chargedParticles;
+
     void Update()
     {
         _attackTimer -= Time.deltaTime;
@@ -73,6 +80,25 @@ public class AttackBehaviour : MonoBehaviour
         {
             MakeCircleCast();
         }
+
+        if (_chargeTimer >= _timeUntillCharged)
+        {
+            _chargingParticles.SetActive(true);
+            //meets basic requirement for charged, enable IHATEEVERYTHING
+        }
+        if (_forceByTime * _chargeTimer >= _maxForceMultiplyer)
+        {
+            _chargingParticles.SetActive(false);
+            _chargedParticles.SetActive(true);
+            //Should be fully charged
+            //    Debug.Log("Fully Charged");
+        }
+    }
+
+    void OnEnable()
+    {
+        _chargingParticles.SetActive(false);
+        _chargedParticles.SetActive(false);
     }
 
     public void castShit(int i)
@@ -151,9 +177,14 @@ public class AttackBehaviour : MonoBehaviour
 
     [SerializeField]
     private Transform _swordReferencePoint;
+    float _tempForce;
 
     private void MakeCircleCast()
     {
+        _chargeTimer = 0;
+        _chargingParticles.SetActive(false);
+        _chargedParticles.SetActive(false);
+        Debug.Log("Shoudl Disabeop");
         float _tempForce = _hitForce;
         if (_chargeTimer >= _timeUntillCharged)
         {
