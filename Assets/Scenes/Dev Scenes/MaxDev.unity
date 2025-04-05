@@ -715,6 +715,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3282571817099449471, guid: 298793fcd0917bf45b61b0b87db5a71f, type: 3}
+      propertyPath: InitialModule.startSize.scalar
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3282571817099449471, guid: 298793fcd0917bf45b61b0b87db5a71f, type: 3}
+      propertyPath: InitialModule.startSize.minScalar
+      value: 0.04
+      objectReference: {fileID: 0}
+    - target: {fileID: 3282571817099449471, guid: 298793fcd0917bf45b61b0b87db5a71f, type: 3}
+      propertyPath: EmissionModule.rateOverTime.scalar
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 6230208460713333540, guid: 298793fcd0917bf45b61b0b87db5a71f, type: 3}
       propertyPath: m_Name
       value: Player 1
@@ -1053,6 +1065,18 @@ PrefabInstance:
     - target: {fileID: 1203120134566270830, guid: 525aa330546552540bde1f21b102278e, type: 3}
       propertyPath: m_Name
       value: Player2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4938467326079938587, guid: 525aa330546552540bde1f21b102278e, type: 3}
+      propertyPath: InitialModule.startSize.scalar
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4938467326079938587, guid: 525aa330546552540bde1f21b102278e, type: 3}
+      propertyPath: InitialModule.startSize.minScalar
+      value: 0.04
+      objectReference: {fileID: 0}
+    - target: {fileID: 4938467326079938587, guid: 525aa330546552540bde1f21b102278e, type: 3}
+      propertyPath: EmissionModule.rateOverTime.scalar
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 7807806759456123611, guid: 525aa330546552540bde1f21b102278e, type: 3}
       propertyPath: m_LocalPosition.x
