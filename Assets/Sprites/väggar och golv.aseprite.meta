@@ -77,7 +77,7 @@ ScriptedImporter:
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
-    mosaicPadding: 4
+    mosaicPadding: 0
     spritePadding: 0
     generateModelPrefab: 1
     generateAnimationClips: 1
@@ -90,14 +90,14 @@ ScriptedImporter:
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
-    mosaicPadding: 4
+    mosaicPadding: 0
     spritePadding: 0
     generateModelPrefab: 1
     generateAnimationClips: 1
     addSortingGroup: 1
     addShadowCasters: 0
   importFileNodeState: 1
-  platformSettingsDirtyTick: 638794562282506408
+  platformSettingsDirtyTick: 638795003481537111
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -144,13 +144,13 @@ ScriptedImporter:
   spriteSheetImportData:
   - name: "v\xE4ggar och golv_0"
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0, y: 0}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
-      y: 164
+      x: 0
+      y: 160
       width: 32
       height: 32
     spriteID: 45392f60677dba84b819b78dd972dbcc
@@ -164,13 +164,13 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   - name: "v\xE4ggar och golv_1"
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0, y: 0}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 36
-      y: 164
+      x: 32
+      y: 160
       width: 32
       height: 32
     spriteID: 3bacba4b979dc4b41a0a584f8e21676a
@@ -184,13 +184,13 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   - name: "v\xE4ggar och golv_2"
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0, y: 0}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 68
-      y: 164
+      x: 64
+      y: 160
       width: 32
       height: 32
     spriteID: 80c0ce073e30d494097ae1c8f94f995f
@@ -204,13 +204,13 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   - name: "v\xE4ggar och golv_3"
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0, y: 0}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 100
-      y: 164
+      x: 96
+      y: 160
       width: 32
       height: 32
     spriteID: bff97586c09db8c4e967c4555113c0c9
@@ -224,13 +224,13 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   - name: "v\xE4ggar och golv_4"
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0, y: 0}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 132
-      y: 164
+      x: 128
+      y: 160
       width: 32
       height: 32
     spriteID: 75056ccf01095bd4987c4b8d2a31c3c3
@@ -244,13 +244,13 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   - name: "v\xE4ggar och golv_5"
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0, y: 0}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 164
-      y: 164
+      x: 160
+      y: 160
       width: 32
       height: 32
     spriteID: c73a26f8ecfbbe84abde252aeae2c89c
@@ -264,13 +264,13 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   - name: "v\xE4ggar och golv_6"
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0, y: 0}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
-      y: 132
+      x: 0
+      y: 128
       width: 32
       height: 32
     spriteID: bbc812425b2dabf41b1a2536e57519b5
@@ -284,13 +284,13 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   - name: "v\xE4ggar och golv_7"
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0, y: 0}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 36
-      y: 132
+      x: 32
+      y: 128
       width: 32
       height: 32
     spriteID: 361136cd11323d44ab7a1db751ad4d9a
@@ -304,13 +304,13 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   - name: "v\xE4ggar och golv_8"
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0, y: 0}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 68
-      y: 132
+      x: 64
+      y: 128
       width: 32
       height: 32
     spriteID: 66908e411de72804293ac6bba60cfa2e
@@ -324,13 +324,13 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   - name: "v\xE4ggar och golv_9"
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0, y: 0}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 100
-      y: 132
+      x: 96
+      y: 128
       width: 32
       height: 32
     spriteID: f549ac306377ded43b99841531158692
@@ -344,13 +344,13 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   - name: "v\xE4ggar och golv_10"
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0, y: 0}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 132
-      y: 132
+      x: 128
+      y: 128
       width: 32
       height: 32
     spriteID: 344f350e3be948b48b16ff390d8b3161
@@ -364,13 +364,13 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   - name: "v\xE4ggar och golv_11"
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0, y: 0}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 164
-      y: 132
+      x: 160
+      y: 128
       width: 32
       height: 32
     spriteID: e64befa850f69a64aa14ff3d54beb25e
@@ -384,13 +384,13 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   - name: "v\xE4ggar och golv_12"
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0, y: 0}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
-      y: 100
+      x: 0
+      y: 96
       width: 32
       height: 32
     spriteID: a0e7de05d17f384429883aacebc9007f
@@ -404,13 +404,13 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   - name: "v\xE4ggar och golv_13"
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0, y: 0}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 36
-      y: 100
+      x: 32
+      y: 96
       width: 32
       height: 32
     spriteID: cb506e620394d714faca70281566f248
@@ -424,13 +424,13 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   - name: "v\xE4ggar och golv_14"
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0, y: 0}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 100
-      y: 100
+      x: 96
+      y: 96
       width: 32
       height: 32
     spriteID: 786256b2a11f11843ba96774e86f59c9
@@ -444,13 +444,13 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   - name: "v\xE4ggar och golv_15"
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0, y: 0}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 132
-      y: 100
+      x: 128
+      y: 96
       width: 32
       height: 32
     spriteID: 17986e058abcfef4ba207309aa6ba695
@@ -464,13 +464,13 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   - name: "v\xE4ggar och golv_16"
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0, y: 0}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 164
-      y: 100
+      x: 160
+      y: 96
       width: 32
       height: 32
     spriteID: 76894854feb3e204ab02f230401a07a3
@@ -484,13 +484,13 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   - name: "v\xE4ggar och golv_17"
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0, y: 0}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
-      y: 68
+      x: 0
+      y: 64
       width: 32
       height: 32
     spriteID: 0f382d3ca5c86fc45a1e17e01a0aaeb5
@@ -504,13 +504,13 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   - name: "v\xE4ggar och golv_18"
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0, y: 0}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 36
-      y: 68
+      x: 32
+      y: 64
       width: 32
       height: 32
     spriteID: a76247249e0129d4ba24bbe44e4d995f
@@ -524,13 +524,13 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   - name: "v\xE4ggar och golv_19"
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0, y: 0}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 68
-      y: 68
+      x: 64
+      y: 64
       width: 32
       height: 32
     spriteID: 128f90261b2a59647ab6f84edcce3048
@@ -544,13 +544,13 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   - name: "v\xE4ggar och golv_20"
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0, y: 0}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 100
-      y: 68
+      x: 96
+      y: 64
       width: 32
       height: 32
     spriteID: 478608cd8c5d54d449e7fbdb8924efba
@@ -564,13 +564,13 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   - name: "v\xE4ggar och golv_21"
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0, y: 0}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 132
-      y: 68
+      x: 128
+      y: 64
       width: 32
       height: 32
     spriteID: 06729aab113a93e4faf3a162965532de
@@ -584,13 +584,13 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   - name: "v\xE4ggar och golv_22"
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0, y: 0}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 164
-      y: 68
+      x: 160
+      y: 64
       width: 32
       height: 32
     spriteID: 401c703572e939446bbaa073f6de7027
@@ -604,13 +604,13 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   - name: "v\xE4ggar och golv_23"
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0, y: 0}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 196
-      y: 68
+      x: 192
+      y: 64
       width: 32
       height: 32
     spriteID: 3a0412cfce85a8043b6e1d531fd8937f
@@ -624,13 +624,13 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   - name: "v\xE4ggar och golv_24"
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0, y: 0}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
-      y: 36
+      x: 0
+      y: 32
       width: 32
       height: 32
     spriteID: d67c81ee21266694b81cacbcdf122fa3
@@ -644,13 +644,13 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   - name: "v\xE4ggar och golv_25"
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0, y: 0}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 68
-      y: 36
+      x: 64
+      y: 32
       width: 32
       height: 32
     spriteID: f931261ae84d1d843b39b649a0c8d3c1
@@ -664,13 +664,13 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   - name: "v\xE4ggar och golv_26"
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0, y: 0}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 132
-      y: 36
+      x: 128
+      y: 32
       width: 32
       height: 32
     spriteID: ba2b8f81acae56a4a9ea14d022065dca
@@ -684,13 +684,13 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   - name: "v\xE4ggar och golv_27"
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0, y: 0}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 164
-      y: 36
+      x: 160
+      y: 32
       width: 32
       height: 32
     spriteID: 54c9e6e9fff0b8945ba20dacc65f092b
@@ -704,13 +704,13 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   - name: "v\xE4ggar och golv_28"
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0, y: 0}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 196
-      y: 36
+      x: 192
+      y: 32
       width: 32
       height: 32
     spriteID: 623bf80c3a4cf904daa03ca4c15aa5d2
@@ -724,13 +724,13 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   - name: "v\xE4ggar och golv_29"
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0, y: 0}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
-      y: 4
+      x: 0
+      y: 0
       width: 32
       height: 32
     spriteID: e2bc8e53f1645b244877d22e1b28db68
@@ -744,13 +744,13 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   - name: "v\xE4ggar och golv_30"
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0, y: 0}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 36
-      y: 4
+      x: 32
+      y: 0
       width: 32
       height: 32
     spriteID: c1462eb08cff35e4a8ee41a0f4d1c31e
@@ -764,13 +764,13 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   - name: "v\xE4ggar och golv_31"
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0, y: 0}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 68
-      y: 4
+      x: 64
+      y: 0
       width: 32
       height: 32
     spriteID: a5d275f6bd8189f44b94c2722d7d18fc
