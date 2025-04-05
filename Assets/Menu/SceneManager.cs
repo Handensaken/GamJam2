@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class SceneManager : MonoBehaviour
 {
+    public List<string> RandomSceneNames = new List<string>();
     private string s = "";
 
     // Start is called before the first frame update
@@ -17,6 +18,11 @@ public class SceneManager : MonoBehaviour
     public void Load(string s)
     {
         UnityEngine.SceneManagement.SceneManager.LoadScene(s);
+    }
+    public void LoadRandom()
+    {
+        int sceneToLoad = Random.Range(0, RandomSceneNames.Count);
+        UnityEngine.SceneManagement.SceneManager.LoadScene(RandomSceneNames[sceneToLoad]);
     }
 
     public void Exit()
