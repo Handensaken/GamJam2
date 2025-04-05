@@ -83,14 +83,14 @@ public class SpawnPointManager : MonoBehaviour
         {
             if (_winGameText != null)
             {
-                _winGameText.text = player1.name + " Won This Game!";
+                _winGameText.text = player1.name + " Won This Round!";
             }
         }
         else if (_Player2Points == 3)
         {
             if (_winGameText != null)
             {
-                _winGameText.text = player2.name + " Won This Game!";
+                _winGameText.text = player2.name + " Won This Round!";
             }
         }
     }
