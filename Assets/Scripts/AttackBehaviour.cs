@@ -184,7 +184,7 @@ public class AttackBehaviour : MonoBehaviour
         _chargeTimer = 0;
         _chargingParticles.SetActive(false);
         _chargedParticles.SetActive(false);
-        Debug.Log("Shoudl Disabeop");
+      //  Debug.Log("Shoudl Disabeop");
         float _tempForce = _hitForce;
         if (_chargeTimer >= _timeUntillCharged)
         {
