@@ -77,7 +77,7 @@ ScriptedImporter:
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
-    mosaicPadding: 4
+    mosaicPadding: 0
     spritePadding: 0
     generateModelPrefab: 1
     generateAnimationClips: 1
@@ -90,14 +90,14 @@ ScriptedImporter:
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
-    mosaicPadding: 4
+    mosaicPadding: 0
     spritePadding: 0
     generateModelPrefab: 1
     generateAnimationClips: 1
     addSortingGroup: 1
     addShadowCasters: 0
   importFileNodeState: 1
-  platformSettingsDirtyTick: 638794774223577715
+  platformSettingsDirtyTick: 638795005329151638
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -144,13 +144,13 @@ ScriptedImporter:
   spriteSheetImportData:
   - name: "mer v\xE4gg varianter och d\xF6rr_0"
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0, y: 0}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
-      y: 68
+      x: 0
+      y: 64
       width: 32
       height: 32
     spriteID: a20d5c86dca5c274ca7ed740f490002a
@@ -164,13 +164,13 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   - name: "mer v\xE4gg varianter och d\xF6rr_1"
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0, y: 0}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 36
-      y: 68
+      x: 32
+      y: 64
       width: 32
       height: 32
     spriteID: 1aa86e8c3d8717c4fa684a3bf1085771
@@ -184,13 +184,13 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   - name: "mer v\xE4gg varianter och d\xF6rr_2"
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0, y: 0}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 68
-      y: 68
+      x: 64
+      y: 64
       width: 32
       height: 32
     spriteID: 50ab83f57f1c9d749923bc744006709d
@@ -204,13 +204,13 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   - name: "mer v\xE4gg varianter och d\xF6rr_3"
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0, y: 0}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
-      y: 36
+      x: 0
+      y: 32
       width: 32
       height: 32
     spriteID: e1775aa2d39f8794a8a61c9a65e35158
@@ -224,13 +224,13 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   - name: "mer v\xE4gg varianter och d\xF6rr_4"
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0, y: 0}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 36
-      y: 36
+      x: 32
+      y: 32
       width: 32
       height: 32
     spriteID: e9a8d0db19807ef46a5c15b2f5c1d0a9
@@ -244,13 +244,13 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   - name: "mer v\xE4gg varianter och d\xF6rr_5"
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0, y: 0}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 68
-      y: 36
+      x: 64
+      y: 32
       width: 32
       height: 32
     spriteID: 21ddfbb79cbf4624e9bd52f81ee70f7d
@@ -264,13 +264,13 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   - name: "mer v\xE4gg varianter och d\xF6rr_6"
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0, y: 0}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 100
-      y: 36
+      x: 96
+      y: 32
       width: 32
       height: 32
     spriteID: a88476a375f43f54e98ff1a431687c5d
@@ -284,13 +284,13 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   - name: "mer v\xE4gg varianter och d\xF6rr_7"
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0, y: 0}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
-      y: 4
+      x: 0
+      y: 0
       width: 32
       height: 32
     spriteID: b6dafddbb33f6a54fb0696d4c7980d01
@@ -304,13 +304,13 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   - name: "mer v\xE4gg varianter och d\xF6rr_8"
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0, y: 0}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 36
-      y: 4
+      x: 32
+      y: 0
       width: 32
       height: 32
     spriteID: 09d220a25b584df498f0a6362f34e4e8
@@ -324,13 +324,13 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   - name: "mer v\xE4gg varianter och d\xF6rr_9"
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0, y: 0}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 68
-      y: 4
+      x: 64
+      y: 0
       width: 32
       height: 32
     spriteID: aaab5f4366530574e8485e9e410233ac
@@ -344,13 +344,13 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   - name: "mer v\xE4gg varianter och d\xF6rr_10"
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0, y: 0}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 100
-      y: 4
+      x: 96
+      y: 0
       width: 32
       height: 32
     spriteID: 49e5b7e6c582fbd48a8766031cb20d28

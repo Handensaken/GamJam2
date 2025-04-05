@@ -33,6 +33,8 @@ public class SpawnPointManager : MonoBehaviour
     {
         GameEventsManager.instance.OnPlayerDeath += OnPlayerDeath;
         SetPointsText();
+        Respawn();
+
     }
     void OnDisable()
     {
