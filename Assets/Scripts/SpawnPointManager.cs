@@ -58,13 +58,13 @@ public class SpawnPointManager : MonoBehaviour
         {
             _p2Anim.SetTrigger("IncreaseScore");
             _Player2Points++;
-            winText.text = player2.name + " won this game";
+            winText.text = player2.name + " Won This Round!";
         }
         else
         {
             _p1Anim.SetTrigger("IncreaseScore");
             _Player1Points++;
-            winText.text = player1.name + " won this game";
+            winText.text = player1.name + " Won This Round!";
         }
         SetPointsText();
         if (_Player1Points == 3 || _Player2Points == 3)
@@ -140,14 +140,14 @@ public class SpawnPointManager : MonoBehaviour
         {
             if (_winGameText != null)
             {
-                _winGameText.text = player1.name + " Won This Round!";
+                _winGameText.text = player1.name + " Won This Game!";
             }
         }
         else if (_Player2Points == 3)
         {
             if (_winGameText != null)
             {
-                _winGameText.text = player2.name + " Won This Round!";
+                _winGameText.text = player2.name + " Won This Game!";
             }
         }
     }
