@@ -260,7 +260,7 @@ Rigidbody2D:
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
-  m_LinearDrag: 1
+  m_LinearDrag: 3
   m_AngularDrag: 0.05
   m_GravityScale: 0
   m_Material: {fileID: 0}
@@ -291,7 +291,7 @@ MonoBehaviour:
   _attackRadius: 0.4
   _distance: 0
   _attackCooldown: 0.1
-  _disableMovmentOnHitDuration: 3
+  _disableMovmentOnHitDuration: 1.75
   _heavyAttackCooldown: 0.2
   _maxForceMultiplyer: 4
   _forceByTime: 2
