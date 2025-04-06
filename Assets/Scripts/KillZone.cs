@@ -6,6 +6,10 @@ using UnityEngine;
 public class KillZone : MonoBehaviour
 {
     static bool _canKillPlayer = true;
+    void OnEnable()
+    {
+        _canKillPlayer = true;
+    }
     void Start()
     {
         GameEventsManager.instance.OnWeRespawnPlayer += CanKillPlayer;

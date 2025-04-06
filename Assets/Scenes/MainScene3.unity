@@ -395,6 +395,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6225855883022698459, guid: 21675d4cf68493f47a56cc655ea20efd, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 579330573}
+    - target: {fileID: 6225855883022698459, guid: 21675d4cf68493f47a56cc655ea20efd, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Load
+      objectReference: {fileID: 0}
     - target: {fileID: 7545553483603866390, guid: 21675d4cf68493f47a56cc655ea20efd, type: 3}
       propertyPath: m_Name
       value: Canvas (1)
@@ -625,6 +633,17 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 652917308}
   m_SourcePrefab: {fileID: 100100000, guid: 04d025c7715f1464ea0cccabb51a4069, type: 3}
+--- !u!114 &579330573 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4797725890812650906, guid: 04d025c7715f1464ea0cccabb51a4069, type: 3}
+  m_PrefabInstance: {fileID: 579330572}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 652917304}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7323831e99eba1f4f9369c5a5d789439, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &593823824
 GameObject:
   m_ObjectHideFlags: 0
