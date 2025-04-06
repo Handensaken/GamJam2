@@ -2146,6 +2146,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RandomSceneNames:
   - MainScene
+  - MainScene2
 --- !u!4 &1725474654
 Transform:
   m_ObjectHideFlags: 0
