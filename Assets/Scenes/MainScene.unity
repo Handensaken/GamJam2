@@ -2441,6 +2441,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   particle: {fileID: 6402335009243877418, guid: c683043112f17ba40a4f162ca9dc0fd9, type: 3}
+--- !u!114 &652917309 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4797725890812650906, guid: 04d025c7715f1464ea0cccabb51a4069, type: 3}
+  m_PrefabInstance: {fileID: 579330572}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 652917304}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7323831e99eba1f4f9369c5a5d789439, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &745406721
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5231,6 +5242,14 @@ PrefabInstance:
     - target: {fileID: 4299903481460478555, guid: 21675d4cf68493f47a56cc655ea20efd, type: 3}
       propertyPath: m_hasFontAssetChanged
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6225855883022698459, guid: 21675d4cf68493f47a56cc655ea20efd, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 652917309}
+    - target: {fileID: 6225855883022698459, guid: 21675d4cf68493f47a56cc655ea20efd, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Load
       objectReference: {fileID: 0}
     - target: {fileID: 6871256579706014157, guid: 21675d4cf68493f47a56cc655ea20efd, type: 3}
       propertyPath: m_Name

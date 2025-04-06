@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class KillZone : MonoBehaviour
 {
-    bool _canKillPlayer = true;
+    static bool _canKillPlayer = true;
     void Start()
     {
         GameEventsManager.instance.OnWeRespawnPlayer += CanKillPlayer;
