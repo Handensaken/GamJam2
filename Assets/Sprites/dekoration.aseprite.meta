@@ -144,7 +144,7 @@ ScriptedImporter:
   spriteSheetImportData:
   - name: dekoration_0
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0, y: 0}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -164,12 +164,12 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   - name: dekoration_1
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0, y: 0}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 32
+      x: 96
       y: 96
       width: 32
       height: 32
@@ -184,12 +184,12 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   - name: dekoration_2
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0, y: 0}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 64
+      x: 128
       y: 96
       width: 32
       height: 32
@@ -204,13 +204,13 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   - name: dekoration_3
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0, y: 0}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 96
-      y: 96
+      x: 0
+      y: 64
       width: 32
       height: 32
     spriteID: 9495319ac1dd6c24898488d6bc036a82
@@ -224,13 +224,13 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   - name: dekoration_4
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0, y: 0}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 128
-      y: 96
+      x: 32
+      y: 64
       width: 32
       height: 32
     spriteID: adfb0c619de2c7e4b91b81bd363c07e6
@@ -244,12 +244,12 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   - name: dekoration_5
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0, y: 0}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 0
+      x: 64
       y: 64
       width: 32
       height: 32
@@ -264,12 +264,12 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   - name: dekoration_6
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0, y: 0}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 32
+      x: 96
       y: 64
       width: 32
       height: 32
@@ -284,12 +284,12 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   - name: dekoration_7
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0, y: 0}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 64
+      x: 128
       y: 64
       width: 32
       height: 32
@@ -304,13 +304,13 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   - name: dekoration_8
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0, y: 0}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 96
-      y: 64
+      x: 0
+      y: 32
       width: 32
       height: 32
     spriteID: e2559d746bffdf34f9443553159012f5
@@ -324,13 +324,13 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   - name: dekoration_9
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0, y: 0}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 128
-      y: 64
+      x: 32
+      y: 32
       width: 32
       height: 32
     spriteID: 53ffd83e23a3b2a4ebd32649870e18eb
@@ -344,12 +344,12 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   - name: dekoration_10
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0, y: 0}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 0
+      x: 64
       y: 32
       width: 32
       height: 32
@@ -364,12 +364,12 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   - name: dekoration_11
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0, y: 0}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 32
+      x: 128
       y: 32
       width: 32
       height: 32
@@ -384,13 +384,13 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   - name: dekoration_12
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0, y: 0}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 64
-      y: 32
+      x: 0
+      y: 0
       width: 32
       height: 32
     spriteID: 5f690ec57ac775e46a008120833d46d7
@@ -404,13 +404,13 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   - name: dekoration_13
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0, y: 0}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 96
-      y: 32
+      x: 32
+      y: 0
       width: 32
       height: 32
     spriteID: 792df973727977c44bfcc86e27eac868
@@ -424,12 +424,12 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   - name: dekoration_14
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0, y: 0}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 0
+      x: 64
       y: 0
       width: 32
       height: 32
@@ -444,7 +444,7 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   - name: dekoration_15
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0, y: 0}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -454,6 +454,26 @@ ScriptedImporter:
       width: 32
       height: 32
     spriteID: c94c16441144a2340bfb130fb003faa8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  - name: dekoration_16
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 0
+      width: 32
+      height: 32
+    spriteID: 98095432306ffa5409f1f27cd9bf099d
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -476,7 +496,7 @@ ScriptedImporter:
       cellRect:
         x: 0
         y: 12
-        width: 158
+        width: 160
         height: 128
       spriteId: e10c0379f0303cb49bb27cd096896803
     linkedCells: []
