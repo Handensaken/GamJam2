@@ -16,12 +16,16 @@ public class PlayerMovement : MonoBehaviour
 
     [Header("MovementDisabled")]
     private bool _DisabledMovement = false;
+    private bool _DisabledMovement2 = false;
+
     private float _disabledMovementTimer = 0;
 
     [SerializeField]
     private float _maxSpeed = 100;
     [Header("Find Wall")]
     [SerializeField] private LayerMask _wallLayerMask;
+    [Header("Animation")]
+    public float _animationBlendJump = 0.8f;
 
     void Start()
     {
@@ -36,23 +40,29 @@ public class PlayerMovement : MonoBehaviour
     {
         int tempX;
         int tempY;
-        if (facingDir.x < -0.5){
+        if (facingDir.x < -_animationBlendJump)
+        {
             tempX = -1;
-        } else if (facingDir.x > 0.5)
+        }
+        else if (facingDir.x > _animationBlendJump)
         {
             tempX = 1;
         }
-        else {
+        else
+        {
             tempX = 0;
         }
 
-        if (facingDir.y < -0.5){
+        if (facingDir.y < -_animationBlendJump)
+        {
             tempY = -1;
-        } else if (facingDir.y > 0.5)
+        }
+        else if (facingDir.y > _animationBlendJump)
         {
             tempY = 1;
         }
-        else {
+        else
+        {
             tempY = 0;
         }
 
@@ -67,6 +77,14 @@ public class PlayerMovement : MonoBehaviour
             if (_disabledMovementTimer <= 0)
             {
                 ReEnableMovment();
+            }
+        }
+        else if (_DisabledMovement2)
+        {
+            if (rb.velocity.magnitude <= _minVelocityReset)
+            {
+                rb.velocity = Vector2.zero;
+                _DisabledMovement2 = false;
             }
         }
         else
@@ -107,12 +125,7 @@ public class PlayerMovement : MonoBehaviour
         if (moveY != Vector2.zero)
         {
             RaycastHit2D hitY = Physics2D.Raycast(transform.position, moveY.normalized, radiusY + moveDistance, _wallLayerMask);
-            if (hitY)
-            {
 
-                Debug.Log(hitY.transform.gameObject.name);
-
-            }
             if (!hitY)
             {
                 transform.Translate(moveY * moveDistance);
@@ -151,7 +164,10 @@ public class PlayerMovement : MonoBehaviour
         _DisabledMovement = true;
         _disabledMovementTimer = duration;
     }
-
+    public void DisableMovement2()
+    {
+        _DisabledMovement2 = true;
+    }
     private void ReEnableMovment()
     {
         rb.velocity = Vector2.zero;

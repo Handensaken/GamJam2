@@ -221,7 +221,8 @@ public class AttackBehaviour : MonoBehaviour
                     Rigidbody2D oppRB = hits[i].transform.gameObject.GetComponent<Rigidbody2D>();
 
                     PlayerMovement pM = hits[i].transform.gameObject.GetComponent<PlayerMovement>();
-                    pM.DisableMovment(_disableMovmentOnHitDuration);
+                    //pM.DisableMovment(_disableMovmentOnHitDuration);
+                    pM.DisableMovement2();
                     //Add hitting Force
                     //Debug.Log(_tempForce);
                     oppRB.AddForce(dir.normalized * _tempForce, ForceMode2D.Impulse);
