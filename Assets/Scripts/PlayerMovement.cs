@@ -34,8 +34,31 @@ public class PlayerMovement : MonoBehaviour
     }
     void Update()
     {
-        anim.SetFloat("Horizontal", facingDir.x);
-        anim.SetFloat("Vertical", facingDir.y);
+        int tempX;
+        int tempY;
+        if (facingDir.x < -0.5){
+            tempX = -1;
+        } else if (facingDir.x > 0.5)
+        {
+            tempX = 1;
+        }
+        else {
+            tempX = 0;
+        }
+
+        if (facingDir.y < -0.5){
+            tempY = -1;
+        } else if (facingDir.y > 0.5)
+        {
+            tempY = 1;
+        }
+        else {
+            tempY = 0;
+        }
+
+
+        anim.SetFloat("Horizontal", tempX);
+        anim.SetFloat("Vertical", tempY);
         //Debug.Log(rb.velocity.magnitude);
 
         if (_DisabledMovement)

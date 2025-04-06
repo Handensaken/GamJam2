@@ -23,7 +23,7 @@ public class KillZone : MonoBehaviour
         if (col.gameObject.CompareTag("Player") && _canKillPlayer)
         {
             GameEventsManager.instance.PlayerDeath(col.gameObject);
-            col.gameObject.SetActive(false);
+            col.transform.position = new Vector3(100,100,100);
             _canKillPlayer = false;
         }
     }
