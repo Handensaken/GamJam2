@@ -39,8 +39,10 @@ PlayerSettings:
     y: 0
     width: 1
     height: 1
-  m_SplashScreenLogos: []
-  m_VirtualRealitySplashScreen: {fileID: -8328923581568760697, guid: 13cf188339098b649bda03f8a90d28e4, type: 3}
+  m_SplashScreenLogos:
+  - logo: {fileID: -3045880170274866875, guid: 13cf188339098b649bda03f8a90d28e4, type: 3}
+    duration: 3.5
+  m_VirtualRealitySplashScreen: {fileID: -8328923581568760697, guid: d046e96e61531844fa5e99353b1380da, type: 3}
   m_HolographicTrackingLossScreen: {fileID: 0}
   defaultScreenWidth: 1920
   defaultScreenHeight: 1080
@@ -160,7 +162,8 @@ PlayerSettings:
   resetResolutionOnWindowResize: 0
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
-  applicationIdentifier: {}
+  applicationIdentifier:
+    Standalone: com.GAMJAM-GANG.SpaceOff
   buildNumber:
     Standalone: 0
     VisionOS: 0
