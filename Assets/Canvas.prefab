@@ -382,6 +382,7 @@ RectTransform:
   m_Children:
   - {fileID: 7063258145195813524}
   - {fileID: 6051232927987323448}
+  - {fileID: 8079265006019755237}
   m_Father: {fileID: 3946229663404681923}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
@@ -1378,7 +1379,7 @@ GameObject:
   - component: {fileID: 1805544240782117158}
   - component: {fileID: 3495475262586062042}
   m_Layer: 5
-  m_Name: Player1Points
+  m_Name: ScoreTXT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1391,12 +1392,12 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6871256579706014157}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 3946229663404681923}
+  m_Father: {fileID: 2962468458632777944}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
@@ -1604,7 +1605,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 8845144753998259990}
-  - {fileID: 8079265006019755237}
   - {fileID: 2841447353482486835}
   - {fileID: 5770208830542786028}
   - {fileID: 2962468458632777944}
