@@ -383,6 +383,7 @@ RectTransform:
   - {fileID: 7063258145195813524}
   - {fileID: 6051232927987323448}
   - {fileID: 8079265006019755237}
+  - {fileID: 8845144753998259990}
   m_Father: {fileID: 3946229663404681923}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
@@ -1604,7 +1605,6 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 8845144753998259990}
   - {fileID: 2841447353482486835}
   - {fileID: 5770208830542786028}
   - {fileID: 2962468458632777944}
@@ -2021,12 +2021,12 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8491577624430783515}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 3946229663404681923}
+  m_Father: {fileID: 2962468458632777944}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
@@ -2061,9 +2061,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '
-
-'
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: b70c49bcd9ab0f748b16688b81714046, type: 2}
   m_sharedMaterial: {fileID: 1807956753439112941, guid: b70c49bcd9ab0f748b16688b81714046, type: 2}
