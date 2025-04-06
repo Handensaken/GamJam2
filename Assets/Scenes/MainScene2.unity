@@ -569,7 +569,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1203120134566270830, guid: 525aa330546552540bde1f21b102278e, type: 3}
       propertyPath: m_Name
-      value: The Cooler Player2
+      value: Player2
       objectReference: {fileID: 0}
     - target: {fileID: 7807806759456123611, guid: 525aa330546552540bde1f21b102278e, type: 3}
       propertyPath: m_LocalPosition.x
