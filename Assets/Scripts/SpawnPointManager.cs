@@ -17,11 +17,16 @@ public class SpawnPointManager : MonoBehaviour
     public TextMeshProUGUI winText;
     public float respawnDeley;
     public TextMeshProUGUI _countdownText;
-    [Header("Win Game")]
-    [SerializeField] private GameObject _winMenu;
-    [SerializeField] private TextMeshProUGUI _winGameText;
-    [SerializeField] private float _respawnDelayedMovement = 1f;
 
+    [Header("Win Game")]
+    [SerializeField]
+    private GameObject _winMenu;
+
+    [SerializeField]
+    private TextMeshProUGUI _winGameText;
+
+    [SerializeField]
+    private float _respawnDelayedMovement = 1f;
 
     [Header("Points Gui")]
     public TextMeshProUGUI player1PointsText;
@@ -29,26 +34,35 @@ public class SpawnPointManager : MonoBehaviour
     private float _Player1Points = 0;
     private float _Player2Points = 0;
 
+    [SerializeField]
+    private Animator _p1Anim;
+
+    [SerializeField]
+    private Animator _p2Anim;
+
     void Start()
     {
         GameEventsManager.instance.OnPlayerDeath += OnPlayerDeath;
-        SetPointsText();
+        //SetPointsText();
         Respawn();
-
     }
+
     void OnDisable()
     {
         GameEventsManager.instance.OnPlayerDeath -= OnPlayerDeath;
     }
+
     void OnPlayerDeath(GameObject player)
     {
         if (player2 != player)
         {
+            _p2Anim.SetTrigger("IncreaseScore");
             _Player2Points++;
             winText.text = player2.name + " won this game";
         }
         else
         {
+            _p1Anim.SetTrigger("IncreaseScore");
             _Player1Points++;
             winText.text = player1.name + " won this game";
         }
@@ -62,6 +76,7 @@ public class SpawnPointManager : MonoBehaviour
             Invoke(nameof(Respawn), respawnDeley);
         }
     }
+
     void Respawn()
     {
         StartCoroutine(Countdown(3));
@@ -75,10 +90,50 @@ public class SpawnPointManager : MonoBehaviour
 
         SetPosition();
     }
+
+    [SerializeField]
+    private float _winDelay = 1.5f;
+
     private void WinGame()
     {
+        StartCoroutine(fucker(_winDelay));
+    }
+
+    void SetPointsText()
+    {
+        if (player1PointsText != null)
+        {
+            player1PointsText.text = _Player1Points.ToString();
+        }
+        if (player2PointsText != null)
+        {
+            player2PointsText.text = _Player2Points.ToString();
+        }
+    }
+
+    void SetPosition()
+    {
+        player1.transform.position = spawnPoint1.position;
+        player2.transform.position = spawnPoint2.position;
+    }
+
+    void DoStuff(int nr)
+    {
+        if (_countdownText != null)
+        {
+            _countdownText.text = nr.ToString();
+        }
+    }
+
+    [SerializeField]
+    GameObject otherUI;
+
+    IEnumerator fucker(float f)
+    {
+        yield return new WaitForSeconds(f);
         if (_winMenu != null)
         {
+            otherUI.SetActive(false);
             _winMenu.SetActive(true);
         }
         if (_Player1Points == 3)
@@ -96,29 +151,7 @@ public class SpawnPointManager : MonoBehaviour
             }
         }
     }
-    void SetPointsText()
-    {
-        if (player1PointsText != null)
-        {
-            player1PointsText.text = _Player1Points.ToString();
-        }
-        if (player2PointsText != null)
-        {
-            player2PointsText.text = _Player2Points.ToString();
-        }
-    }
-    void SetPosition()
-    {
-        player1.transform.position = spawnPoint1.position;
-        player2.transform.position = spawnPoint2.position;
-    }
-    void DoStuff(int nr)
-    {
-        if (_countdownText != null)
-        {
-            _countdownText.text = nr.ToString();
-        }
-    }
+
     IEnumerator Countdown(int seconds)
     {
         int counter = seconds;
