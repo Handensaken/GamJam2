@@ -74,17 +74,22 @@ public class AttackBehaviour : MonoBehaviour
             MakeCircleCast();
         }
 
-        if (_chargeTimer >= _timeUntillCharged)
-        {
-            _chargingParticles.SetActive(true);
-            //meets basic requirement for charged, enable IHATEEVERYTHING
-        }
         if (_forceByTime * _chargeTimer >= _maxForceMultiplyer)
         {
             _chargingParticles.SetActive(false);
             _chargedParticles.SetActive(true);
             //Should be fully charged
             //    Debug.Log("Fully Charged");
+        }
+        else if (_chargeTimer >= _timeUntillCharged)
+        {
+            _chargingParticles.SetActive(true);
+            //meets basic requirement for charged, enable IHATEEVERYTHING
+        }
+        else
+        {
+            _chargedParticles.SetActive(false);
+            _chargingParticles.SetActive(false);
         }
     }
 
@@ -97,9 +102,15 @@ public class AttackBehaviour : MonoBehaviour
     public void castShit(int i)
     {
         if (i == 1)
+        {
             shouldCast = true;
+        }
+
         else
+        {
+            _chargeTimer = 0;
             shouldCast = false;
+        }
         //shouldCast = castState;
     }
 
@@ -113,6 +124,7 @@ public class AttackBehaviour : MonoBehaviour
         {
             _isCharging = true;
             _chargeTimer = 0;
+            Debug.Log("Start");
             GetComponent<PlayerMovement>().anim.SetTrigger("AttackInit");
             BABYCOR = false;
         }
@@ -174,11 +186,11 @@ public class AttackBehaviour : MonoBehaviour
 
     private void MakeCircleCast()
     {
-        _chargeTimer = 0;
         _chargingParticles.SetActive(false);
         _chargedParticles.SetActive(false);
-      //  Debug.Log("Shoudl Disabeop");
+        //  Debug.Log("Shoudl Disabeop");
         float _tempForce = _hitForce;
+        Debug.Log(_chargeTimer);
         if (_chargeTimer >= _timeUntillCharged)
         {
             _attackTimer = _heavyAttackCooldown;
@@ -211,6 +223,7 @@ public class AttackBehaviour : MonoBehaviour
                     PlayerMovement pM = hits[i].transform.gameObject.GetComponent<PlayerMovement>();
                     pM.DisableMovment(_disableMovmentOnHitDuration);
                     //Add hitting Force
+                    //Debug.Log(_tempForce);
                     oppRB.AddForce(dir.normalized * _tempForce, ForceMode2D.Impulse);
                     GameEventsManager.instance.PlayerHit(hits[i].transform);
                     GameEventsManager.instance.CameraShake();
