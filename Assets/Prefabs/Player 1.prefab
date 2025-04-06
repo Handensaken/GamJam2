@@ -294,7 +294,7 @@ MonoBehaviour:
   _attackCooldown: 0.1
   _disableMovmentOnHitDuration: 0.25
   _heavyAttackCooldown: 0.2
-  _maxForceMultiplyer: 3
+  _maxForceMultiplyer: 2.5
   _forceByTime: 1.75
   _timeUntillCharged: 0.5
   _chargingParticles: {fileID: 6437085098089119227}
