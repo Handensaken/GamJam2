@@ -926,12 +926,12 @@ AnimatorStateTransition:
   - m_ConditionMode: 4
     m_ConditionEvent: Horizontal
     m_EventTreshold: 0.1
-  - m_ConditionMode: 4
-    m_ConditionEvent: Vertical
-    m_EventTreshold: 0
   - m_ConditionMode: 1
     m_ConditionEvent: AttackInit
     m_EventTreshold: 0
+  - m_ConditionMode: 4
+    m_ConditionEvent: Vertical
+    m_EventTreshold: 0.1
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -6901310931663420147}
   m_Solo: 0
@@ -1598,7 +1598,7 @@ AnimatorStateMachine:
     m_Position: {x: -480, y: 220, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -6901310931663420147}
-    m_Position: {x: -480, y: 140, z: 0}
+    m_Position: {x: -490, y: 140, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 345068554129622371}
     m_Position: {x: -30, y: 460, z: 0}
@@ -1938,7 +1938,7 @@ AnimatorStateTransition:
   m_Conditions:
   - m_ConditionMode: 4
     m_ConditionEvent: Vertical
-    m_EventTreshold: 0
+    m_EventTreshold: 0.1
   - m_ConditionMode: 3
     m_ConditionEvent: Horizontal
     m_EventTreshold: -0.1
@@ -2324,7 +2324,7 @@ BlendTree:
     m_Mirror: 0
   - serializedVersion: 2
     m_Motion: {fileID: 7400000, guid: c26632d214f95014da1a1a9cd9f34226, type: 2}
-    m_Threshold: 0.33333334
+    m_Threshold: 0.25
     m_Position: {x: -1, y: 0}
     m_TimeScale: 1
     m_CycleOffset: 0
@@ -2332,7 +2332,7 @@ BlendTree:
     m_Mirror: 0
   - serializedVersion: 2
     m_Motion: {fileID: 7400000, guid: 95cddebd272fe1b4ba4bba86b2e95841, type: 2}
-    m_Threshold: 0.6666667
+    m_Threshold: 0.5
     m_Position: {x: 0, y: 1}
     m_TimeScale: 1
     m_CycleOffset: 0
@@ -2340,8 +2340,16 @@ BlendTree:
     m_Mirror: 0
   - serializedVersion: 2
     m_Motion: {fileID: 7400000, guid: 9e7db8d237ea3824486c25b16bf22122, type: 2}
-    m_Threshold: 1
+    m_Threshold: 0.75
     m_Position: {x: 0, y: -1}
+    m_TimeScale: 1
+    m_CycleOffset: 0
+    m_DirectBlendParameter: Horizontal
+    m_Mirror: 0
+  - serializedVersion: 2
+    m_Motion: {fileID: 7400000, guid: 9e7db8d237ea3824486c25b16bf22122, type: 2}
+    m_Threshold: 1
+    m_Position: {x: 0, y: 0}
     m_TimeScale: 1
     m_CycleOffset: 0
     m_DirectBlendParameter: Horizontal
